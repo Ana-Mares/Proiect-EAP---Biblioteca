@@ -1,7 +1,7 @@
 package clase;
 
 public class Abonament {
-    private static Integer id;
+    private static Integer id=0;
     private String idCard;
     private Data inceput;
     private Data sfarsit;

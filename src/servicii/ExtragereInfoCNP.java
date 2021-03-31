@@ -12,7 +12,7 @@ public class ExtragereInfoCNP {
         Integer luna;
         Integer zi;
         String an;
-        Data data = null;
+        Data data = new Data(0,0,0);
 
         if(cnp.length() != 13) {
             System.out.println("CNP invalid");
@@ -28,6 +28,7 @@ public class ExtragereInfoCNP {
             an = prefixAn + sufixAn;
             luna = new Integer(cnp.substring(3, 5));
             zi = new Integer(cnp.substring(5,7));
+
             data.setZi(zi);
             data.setLuna(luna);
             data.setAn(Integer.valueOf(an));

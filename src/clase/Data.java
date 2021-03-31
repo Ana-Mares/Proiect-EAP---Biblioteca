@@ -38,7 +38,7 @@ public class Data implements Comparable<Data> {
 
     @Override
     public String toString() {
-        return  "Data: " + zi + '.' + luna + '.' + an;
+        return " " + zi + '.' + luna + '.' + an;
     }
 
     @Override

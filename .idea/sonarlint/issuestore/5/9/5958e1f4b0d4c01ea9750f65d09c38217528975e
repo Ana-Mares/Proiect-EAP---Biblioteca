@@ -1,9 +1,0 @@
-
-]
-java:S1854$";Remove this useless assignment to local variable "nastere".(Ûë—šøÿÿÿÿ8ëâ·Ó‡/
-Q
-java:S1656$"/Remove or correct this useless self-assignment.(Ûë—šøÿÿÿÿ8ëâ·Ó‡/
-‡
-java:S4165$"eRemove this useless assignment; "nastere" already holds the assigned value along all execution paths.(Ûë—šøÿÿÿÿ8ëâ·Ó‡/
-V
-java:S5993"9Change the visibility of this constructor to "protected".(£É‰Ñ8ÊÛéÈ‡/

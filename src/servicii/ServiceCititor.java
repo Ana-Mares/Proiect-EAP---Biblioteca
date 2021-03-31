@@ -4,7 +4,7 @@ import clase.*;
 import java.util.Random;
 
 public class ServiceCititor {
-    Cititor[] cititori = new Cititor[10];
+    Cititor[] cititori = new Cititor[8];
 
     public ServiceCititor(Inventar[] obiecte) {
         this.initCititor(obiecte);
@@ -27,8 +27,8 @@ public class ServiceCititor {
 
         String[] nrTel = new String[cititori.length];
         for (int i = 0; i < cititori.length; i++) {
-            nrTel[i] = "02";
-            for (int j = 2; j <= 10; j++)
+            nrTel[i] = "07";
+            for (int j = 2; j < 10; j++)
                 nrTel[i] = nrTel[i] + random.nextInt(10);
         }
         ServiceAdresa sAdresa = new ServiceAdresa();
@@ -57,6 +57,7 @@ public class ServiceCititor {
             imprumut = sImprumut.getImprumuturi();
 
             Cititor cititor = new Cititor(tempNume, tempPrenume,nastere, tempCnp, mail, nrTel[i], adresa[i], abonamente[random.nextInt(abonamente.length)], imprumut);
+            cititori[i] = cititor;
         }
 
     }

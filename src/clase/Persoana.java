@@ -38,6 +38,6 @@ public abstract class Persoana {
 
     @Override
     public String toString() {
-        return  "Nume: " + nume + ", prenume: " + prenume + ", data nastere: " + nastere;
+        return   nume + " " + prenume + ", data nastere: " + nastere;
     }
 }

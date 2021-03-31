@@ -21,13 +21,19 @@ public class ServiceDate {
     public Data[] filtreazaMaiMare(FiltruData filtru, Object valoare) {
         return filtru.filtruMaiMare(date, valoare);
     }
-    public Data[] filtreazaMaiMic(FiltruData filtru, Object valoare) { return filtru.filtruEgal(date, valoare); }
-    public Data[] filtreazaEgal(FiltruData filtru, Object valoare) { return filtru.filtruEgal(date, valoare); }
+
+    public Data[] filtreazaMaiMic(FiltruData filtru, Object valoare) {
+        return filtru.filtruEgal(date, valoare);
+    }
+
+    public Data[] filtreazaEgal(FiltruData filtru, Object valoare) {
+        return filtru.filtruEgal(date, valoare);
+    }
 
     private void initDate() {
         Random random = new Random();
         for (int i = 0; i < date.length; i++) {
-            Data data = new Data(random.nextInt() % 30 + 1, random.nextInt() % 12 + 1, random.nextInt() % 2021 + 1);
+            Data data = new Data((random.nextInt(30) + 1), (random.nextInt(12) + 1), (random.nextInt(122) + 1900));
             date[i] = data;
         }
     }

@@ -27,7 +27,7 @@ public class ServiceAbonament {
         Data[] sfarsit = sDate2.getDate();
         Random random= new Random();
         for (int i = 0; i < abonamente.length; i++) {
-            Abonament abonament = new Abonament (inceput[random.nextInt(inceput.length)], sfarsit[random.nextInt(sfarsit.length)], random.nextBoolean() );
+            Abonament abonament = new Abonament (inceput[random.nextInt(inceput.length)], sfarsit[random.nextInt(sfarsit.length)], Boolean.TRUE );
             abonamente[i] = abonament;
         }
     }

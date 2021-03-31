@@ -58,10 +58,13 @@ public class Imprumut {
 
     @Override
     public String toString() {
-        return 
-                "Obiect imprumutat: " + obiecte + "Data imprumutare " + imprumutare +
-                ", data maxima pentru restituire " + restituire +
-                ", au fost intarzieri: " + intarziere +
+        String temp = "Obiecte imprumutate: ";
+        for (int i = 1; i <= obiecte.length; i ++ )
+            temp = temp + '\n' + i + "." + obiecte[i-1] + ", " ;
+        temp = temp + '\n' + "Data imprumutare" + imprumutare +
+                ", data maxima pentru restituire:" + restituire +
+                "; au fost intarzieri: " + intarziere +
                 ", au fost probleme: " + problema;
+        return temp;
     }
 }

@@ -44,6 +44,6 @@ public abstract class Inventar {
     @Override
     public String toString() {
         return "Data achizitiei" + achizitie +
-                ", disponibil=" + disponibil;
+                ", disponibil= " + disponibil+ ". ";
     }
 }

@@ -29,8 +29,9 @@ public class ServiceImprumut {
         ServiceDate sDate2 = new ServiceDate();
         Data[] restituire = sDate2.getDate();
 
+
         Random random = new Random();
-        Imprumut imprumut1 = new Imprumut(imprumutare[random.nextInt(imprumutare.length)], restituire[random.nextInt(restituire.length)], Boolean.TRUE, Boolean.FALSE, obiecte);
+        Imprumut imprumut1 = new Imprumut(imprumutare[random.nextInt(imprumutare.length)], restituire[random.nextInt(restituire.length)], Boolean.FALSE, Boolean.FALSE, obiecte);
         imprumut[0] = imprumut1;
     }
 }

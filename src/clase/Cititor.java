@@ -70,12 +70,14 @@ public class Cititor extends Persoana {
 
     @Override
     public String toString() {
-        return super.toString() +
-                "cnp: " + cnp  +
+        String tmp = super.toString() +
+                ", CNP: " + cnp  +
                 ", adresa mail: " + mail +
                 ", numar de telefon: " + nrTelefon +
-                ", adresa: " + adresa +
-                ", informatii despre abonament: " + abonament +
-                ", imprumuturi: " + Arrays.toString(imprumuturi);
-    }
+                " " + '\n' + adresa + '\n' +
+                "Informatii despre abonament: " + abonament + '\n' +
+                "Imprumuturi: ";
+        for (int i = 0 ; i < imprumuturi.length; i++)
+            tmp = tmp+imprumuturi[i].toString() + " ";
+    return tmp;}
 }

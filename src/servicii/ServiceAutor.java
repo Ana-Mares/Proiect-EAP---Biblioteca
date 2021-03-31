@@ -32,7 +32,7 @@ public class ServiceAutor {
         String[] tari = {"Romania", "Statele Unite ale Americii", "Regatul Unit", "Franta", "Germania", "Spania"};
         ServiceDate sDate2 = new ServiceDate();
         Data[] deces = sDate2.getDate();
-        String[] premii = {"", "Nobel pentru Lieratura", "Pulitzer", "Goodreads Choice", "academiei Romane", "Uniunii Scriitorilor"};
+        String[] premii = {"-", "Nobel pentru Lieratura", "-", "Pulitzer", "-", "Goodreads Choice", "Academiei Romane", "-", "Uniunii Scriitorilor"};
 
         Random random= new Random();
         for (int i = 0; i < autori.length; i++) {

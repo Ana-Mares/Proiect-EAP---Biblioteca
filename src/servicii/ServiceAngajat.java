@@ -30,10 +30,9 @@ public class ServiceAngajat {
         Random random= new Random();
         for (int i = 0; i < angajati.length; i++) {
             int rand = random.nextInt(angajati.length);
-            int k = i+2;
-            Angajat angajat = new Angajat(cititori[k].getNume(), cititori[k].getPrenume(), cititori[k].getNastere(), cititori[k].getCnp(),
-                                cititori[k].getMail(), cititori[k].getNrTelefon(), cititori[k].getAdresa(), cititori[k].getAbonament(),
-                                cititori[k].getImprumuturi(), angajare[random.nextInt(angajare.length)], salarii[random.nextInt(salarii.length)]);
+            Angajat angajat = new Angajat(cititori[i].getNume(), cititori[i].getPrenume(), cititori[i].getNastere(), cititori[i].getCnp(),
+                                cititori[i].getMail(), cititori[i].getNrTelefon(), cititori[i].getAdresa(), cititori[i].getAbonament(),
+                                cititori[i].getImprumuturi(), angajare[random.nextInt(angajare.length)], salarii[random.nextInt(salarii.length)]);
             angajati[i] = angajat;
         }
     }

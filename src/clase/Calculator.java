@@ -30,7 +30,7 @@ public class Calculator extends Inventar {
 
     @Override
     public String toString() {
-        return "Calculator: " + firma + '\n' + super.toString() +
-                "istoric reparatii:" + Arrays.toString(istoricReparatii);
+        return "Calculator: " + firma + "; " + super.toString() +
+                "; istoric reparatii: " + Arrays.toString(istoricReparatii);
     }
 }

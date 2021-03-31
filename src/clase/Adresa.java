@@ -48,7 +48,7 @@ public class Adresa {
 
     @Override
     public String toString() {
-        return "Adresa:" + '\n' +
+        return "Adresa:" +
                 "Judet " + judet +
                 ", localitate " + localitate +
                 ", strada " + strada +
