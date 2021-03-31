@@ -2,10 +2,10 @@ package clase;
 
 public class Editie extends Carte {
     private String editura;
-    private String anAparitie;
+    private int anAparitie;
     private int nrPagini;
 
-    public Editie(Data achizitie, boolean disponibil, String denumire, Autor autor, String categorie, String editura, String anAparitie, int nrPagini) {
+    public Editie(Data achizitie, boolean disponibil, String denumire, Autor autor, String categorie, String editura, int anAparitie, int nrPagini) {
         super(achizitie, disponibil, denumire, autor, categorie);
         this.editura = editura;
         this.anAparitie = anAparitie;
@@ -21,11 +21,11 @@ public class Editie extends Carte {
         this.editura = editura;
     }
 
-    public String getAnAparitie() {
+    public int getAnAparitie() {
         return anAparitie;
     }
 
-    public void setAnAparitie(String anAparitie) {
+    public void setAnAparitie(int anAparitie) {
         this.anAparitie = anAparitie;
     }
 

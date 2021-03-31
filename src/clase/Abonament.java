@@ -1,6 +1,7 @@
 package clase;
 
 public class Abonament {
+    private static Integer id;
     private String idCard;
     private Data inceput;
     private Data sfarsit;
@@ -13,6 +14,13 @@ public class Abonament {
         this.eValabil = eValabil;
     }
 
+    public Abonament( Data inceput, Data sfarsit, boolean eValabil) {
+        id++;
+        this.idCard = Integer.toString(id);
+        this.inceput = inceput;
+        this.sfarsit = sfarsit;
+        this.eValabil = eValabil;
+    }
 
     public String getIdCard() {
         return idCard;

@@ -1,23 +1,27 @@
 package clase;
 
 public abstract class Inventar {
-    protected static String idInventar;
+    protected static int id;
+    protected String idInventar;
     protected Data achizitie;
     protected boolean disponibil;
 
+    public Inventar(String idInventar, Data achizitie, boolean disponibil) {
+        this.idInventar = idInventar;
+        this.achizitie = achizitie;
+        this.disponibil = disponibil;
+    }
 
     public Inventar(Data achizitie, boolean disponibil) {
+        id++;
+        idInventar = Integer.toString(id);
         this.achizitie = achizitie;
         this.disponibil = disponibil;
     }
 
 
-    public static String getIdInventar() {
-        return idInventar;
-    }
-
-    public static void setIdInventar(String idInventar) {
-        Inventar.idInventar = idInventar;
+    public static int getId() {
+        return id;
     }
 
     public Data getAchizitie() {

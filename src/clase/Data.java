@@ -1,43 +1,51 @@
 package clase;
 
-public class Data {
-    protected String zi;
-    protected String luna;
-    protected String an;
+public class Data implements Comparable<Data> {
+    protected int zi;
+    protected int luna;
+    protected int an;
 
-    public Data(String zi, String luna, String an) {
+    public Data(int zi, int luna, int an) {
         this.zi = zi;
         this.luna = luna;
         this.an = an;
     }
 
-    public String getZi() {
+    public int getZi() {
         return zi;
     }
 
-    public void setZi(String zi) {
+    public void setZi(int zi) {
         this.zi = zi;
     }
 
-    public String getLuna() {
+    public int getLuna() {
         return luna;
     }
 
-    public void setLuna(String luna) {
+    public void setLuna(int luna) {
         this.luna = luna;
     }
 
-    public String getAn() {
+    public int getAn() {
         return an;
     }
 
-    public void setAn(String an) {
+    public void setAn(int an) {
         this.an = an;
     }
 
 
     @Override
     public String toString() {
-        return  zi + ' ' + luna + ' ' + an;
+        return  "Data: " + zi + '.' + luna + '.' + an;
+    }
+
+    @Override
+    public int compareTo(Data d)
+    {
+        if (d.getAn() != this.getAn() ) return d.getAn()-this.getAn();
+        else if (d.getLuna() != this.getLuna() ) return d.getLuna()-this.getLuna();
+        else return d.getZi()-this.getZi();
     }
 }

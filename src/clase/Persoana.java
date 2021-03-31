@@ -3,12 +3,12 @@ package clase;
 public abstract class Persoana {
     protected String nume;
     protected String prenume;
-    protected String dataNastere;
+    protected Data nastere;
 
-    public Persoana(String nume, String prenume, String dataNastere) {
+    public Persoana(String nume, String prenume, Data nastere) {
         this.nume = nume;
         this.prenume = prenume;
-        this.dataNastere = dataNastere;
+        this.nastere = nastere;
     }
 
 
@@ -28,16 +28,16 @@ public abstract class Persoana {
         this.prenume = prenume;
     }
 
-    public String getDataNastere() {
-        return dataNastere;
+    public Data getNastere() {
+        return nastere;
     }
 
-    public void setDataNastere(String dataNastere) {
-        this.dataNastere = dataNastere;
+    public void setNastere(Data nastere) {
+        nastere = nastere;
     }
 
     @Override
     public String toString() {
-        return  "Nume: " + nume + ", prenume: " + prenume + ", data nastere='" + dataNastere;
+        return  "Nume: " + nume + ", prenume: " + prenume + ", data nastere: " + nastere;
     }
 }

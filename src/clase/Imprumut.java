@@ -5,14 +5,14 @@ public class Imprumut {
     private Data restituire;
     private boolean intarziere;
     private boolean problema;
-    private Inventar obiect;
+    private Inventar[] obiecte;
 
-    public Imprumut(Data imprumutare, Data restituire, boolean intarziere, boolean problema, Inventar obiect) {
+    public Imprumut(Data imprumutare, Data restituire, boolean intarziere, boolean problema, Inventar[] obiecte) {
         this.imprumutare = imprumutare;
         this.restituire = restituire;
         this.intarziere = intarziere;
         this.problema = problema;
-        this.obiect = obiect;
+        this.obiecte = obiecte;
     }
 
     public Data getImprumutare() {
@@ -47,19 +47,19 @@ public class Imprumut {
         this.problema = problema;
     }
 
-    public Inventar getObiect() {
-        return obiect;
+    public Inventar[] getObiecte() {
+        return obiecte;
     }
 
-    public void setObiect(Inventar obiect) {
-        this.obiect = obiect;
+    public void setObiecte(Inventar[] obiecte) {
+        this.obiecte = obiecte;
     }
 
 
     @Override
     public String toString() {
         return 
-                "Obiect imprumutat: " + obiect + "Data imprumutare " + imprumutare +
+                "Obiect imprumutat: " + obiecte + "Data imprumutare " + imprumutare +
                 ", data maxima pentru restituire " + restituire +
                 ", au fost intarzieri: " + intarziere +
                 ", au fost probleme: " + problema;

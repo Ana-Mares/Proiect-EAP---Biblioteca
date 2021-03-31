@@ -1,23 +1,24 @@
 package clase;
 
 public class Carte extends Inventar {
-    protected String denumire;
+    protected String titlu;
     protected Autor autor;
     protected String categorie;
 
     public Carte(Data achizitie, boolean disponibil, String denumire, Autor autor, String categorie) {
         super(achizitie, disponibil);
-        this.denumire = denumire;
+        this.titlu = denumire;
         this.autor = autor;
         this.categorie = categorie;
     }
 
-    public String getDenumire() {
-        return denumire;
+
+    public String getTitlu() {
+        return titlu;
     }
 
-    public void setDenumire(String denumire) {
-        this.denumire = denumire;
+    public void setTitlu(String titlu) {
+        this.titlu = titlu;
     }
 
     public Autor getAutor() {
@@ -39,7 +40,7 @@ public class Carte extends Inventar {
 
     @Override
     public String toString() {
-        return super.toString() + "Denumire carte: " + denumire +
+        return super.toString() + "Denumire carte: " + titlu +
                 ", scrisa de " + autor +
                 ", categorie " + categorie;
     }

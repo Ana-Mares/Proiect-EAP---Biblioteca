@@ -4,10 +4,12 @@ import java.util.Arrays;
 
 public class Calculator extends Inventar {
     private Data[] istoricReparatii;
+    private String firma;
 
-    public Calculator(Data achizitie, boolean disponibil, Data[] istoricReparatii) {
+    public Calculator(Data achizitie, boolean disponibil, Data[] istoricReparatii, String firma) {
         super(achizitie, disponibil);
         this.istoricReparatii = istoricReparatii;
+        this.firma = firma;
     }
 
     public Data[] getIstoricReparatii() {
@@ -18,10 +20,17 @@ public class Calculator extends Inventar {
         this.istoricReparatii = istoricReparatii;
     }
 
+    public String getFirma() {
+        return firma;
+    }
+
+    public void setFirma(String firma) {
+        this.firma = firma;
+    }
 
     @Override
     public String toString() {
-        return "Calculator: " + '\n' + super.toString() +
+        return "Calculator: " + firma + '\n' + super.toString() +
                 "istoric reparatii:" + Arrays.toString(istoricReparatii);
     }
 }

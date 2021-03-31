@@ -10,7 +10,7 @@ public class Cititor extends Persoana {
     protected Abonament abonament;
     protected Imprumut[] imprumuturi;
 
-    public Cititor(String nume, String prenume, String dataNastere, String cnp, String mail, String nrTelefon, Adresa adresa, Abonament abonament, Imprumut[] imprumuturi) {
+    public Cititor(String nume, String prenume, Data dataNastere, String cnp, String mail, String nrTelefon, Adresa adresa, Abonament abonament, Imprumut[] imprumuturi) {
         super(nume, prenume, dataNastere);
         this.cnp = cnp;
         this.mail = mail;

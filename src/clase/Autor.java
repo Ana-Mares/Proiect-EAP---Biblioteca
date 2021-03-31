@@ -5,20 +5,21 @@ import java.util.Arrays;
 public class Autor extends Persoana{
     private String tara;
     private Data deces;
-    private String[] premii;
+    private String celMaiImportantpremiu;
 
-    public Autor(String nume, String prenume, String dataNastere, String tara, Data deces, String[] premii) {
+    public Autor(String nume, String prenume, Data dataNastere, String tara, Data deces, String celMaiImportantpremiu) {
         super(nume, prenume, dataNastere);
         this.tara = tara;
         this.deces = deces;
-        this.premii = premii;
+        this.celMaiImportantpremiu = celMaiImportantpremiu;
     }
 
 
-    public Autor(String nume, String prenume, String dataNastere, String tara, Data deces) {
+    public Autor(String nume, String prenume, Data dataNastere, String tara, Data deces) {
         super(nume, prenume, dataNastere);
         this.tara = tara;
         this.deces = deces;
+        this.celMaiImportantpremiu = null;
     }
 
     public String getTara() {
@@ -37,12 +38,12 @@ public class Autor extends Persoana{
         this.deces = deces;
     }
 
-    public String[] getPremii() {
-        return premii;
+    public String getCelMaiImportantpremiu() {
+        return celMaiImportantpremiu;
     }
 
-    public void setPremii(String[] premii) {
-        this.premii = premii;
+    public void setCelMaiImportantpremiu(String celMaiImportantpremiu) {
+        this.celMaiImportantpremiu = celMaiImportantpremiu;
     }
 
     @Override
@@ -50,6 +51,6 @@ public class Autor extends Persoana{
         return super.toString() +
                 ", tara " + tara  +
                 ", deces(daca este cazul) " + deces +
-                ", premii(daca este cazul) " + Arrays.toString(premii);
+                ", cel mai important premiu(daca este cazul) " + celMaiImportantpremiu;
     }
 }

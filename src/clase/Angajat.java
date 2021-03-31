@@ -4,7 +4,7 @@ public class Angajat extends Cititor {
     private Data angajare;
     private int salariu;
 
-    public Angajat(String nume, String prenume, String dataNastere, String cnp, String mail, String nrTelefon, Adresa adresa, Abonament abonament, Imprumut[] imprumuturi, Data angajare, int salariu) {
+    public Angajat(String nume, String prenume, Data dataNastere, String cnp, String mail, String nrTelefon, Adresa adresa, Abonament abonament, Imprumut[] imprumuturi, Data angajare, int salariu) {
         super(nume, prenume, dataNastere, cnp, mail, nrTelefon, adresa, abonament, imprumuturi);
         this.angajare = angajare;
         this.salariu = salariu;
