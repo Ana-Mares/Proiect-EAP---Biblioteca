@@ -6,7 +6,7 @@
 - Abonament <br>
 - Adresa <br>
 - Data <br>
--Inventar -> Calculator <br>
+- Inventar -> Calculator <br>
           -> Carte -> Editie (presupunem ca biblioteca are cate un exemplar din fiecare editie dintr-o carte) <br>
 - Imprumut <br>
 - Persoana -> Autor <br>
