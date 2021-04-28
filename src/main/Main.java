@@ -10,11 +10,27 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
 
+        ArrayList<Inventar> inventar = new ArrayList<Inventar>();
+        ArrayList<Cititor> cititori = new ArrayList<Cititor>();
+
+        citireFisier.getInstanta().citireEditie( inventar);
+        citireFisier.getInstanta().citireCalculator(inventar);
+
+        citireFisier.getInstanta().citireAngajati( cititori );
+        citireFisier.getInstanta().citireCititori( cititori );
+
+
+        citireFisier.getInstanta().citireImprumuturi(cititori, inventar);
+        for (int i = 0; i < cititori.size(); i++)
+        System.out.println(cititori.get(i).toString() + "\n");
+
+
+
+
+
        /* ServiceInventar sInventar = new ServiceInventar();
         List<Inventar> inventar = Arrays.asList(sInventar.getInventare());
 
-        //DE AICI
-        // /*
         ServiceCarte sCarte = new ServiceCarte();
         Carte[] carti = sCarte.getCarti();
 
@@ -24,9 +40,8 @@ public class Main {
         for (int i = 0; i < inventar.size(); i++) {
             if (i < 20) inventar.set(i, carti[i]);
             else inventar.set(i, calculatoare[i - 20]);
-        }*/
-//PANA AICI
-        /*
+        }
+
         ServiceCititor sCititor = new ServiceCititor(inventar);
         ServiceAngajat sAngajat = new ServiceAngajat(inventar);
 
@@ -38,9 +53,9 @@ public class Main {
         while (persoanaIterator.hasNext()) {
             System.out.println(persoanaIterator.next());
             System.out.println("\n");
-        } */
+        }
 
-/*
+
         for (int i = 1; i <= angajati.length; i++) {
             System.out.print("ANGAJATI " + i + ". ");
             System.out.println(angajati[i-1].toString());
@@ -52,26 +67,5 @@ public class Main {
             System.out.println(cititori[i-1].toString());
             System.out.println();
         }*/
-
-
-        ArrayList<Inventar> inventar = new ArrayList<Inventar>();
-        ArrayList<Cititor> cititori = new ArrayList<Cititor>();
-
-        citireFisier.getInstanta().citireEditie( inventar);
-        citireFisier.getInstanta().citireCalculator(inventar);
-        //for (int i = 0; i < inventar.size(); i++)
-            //System.out.println(inventar.get(i).toString());
-
-
-        citireFisier.getInstanta().citireAngajati( cititori );
-        citireFisier.getInstanta().citireCititori( cititori );
-
-
-
-        citireFisier.getInstanta().citireImprumuturi(cititori, inventar);
-        for (int i = 0; i < cititori.size(); i++)
-        System.out.println(cititori.get(i).toString() + "\n");
-
-
     }
 }

@@ -56,17 +56,7 @@ public class ServiceCititor {
             ServiceImprumut sImprumut = new ServiceImprumut(obiecte);
             List<Imprumut> imprumut = new ArrayList<>();
             imprumut.addAll(Arrays.asList(sImprumut.getImprumuturi()));
-            //Imprumut[] imprumut = sImprumut.getImprumuturi();
-            //System.out.println("Imprumutul A     ");
-           /* int j = 0;
 
-            while (imprumut[j].getImprumutare() != null)
-            {
-                System.out.println(j);
-                System.out.println(imprumut[j].toString());
-            System.out.println("\n");
-            j++;}
-*/
             Cititor cititor = new Cititor(tempNume, tempPrenume,nastere, tempCnp, mail, nrTel[i], adresa[i], abonamente[random.nextInt(abonamente.length)], imprumut);
             cititori[i] = cititor;
         }

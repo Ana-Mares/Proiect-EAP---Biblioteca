@@ -56,7 +56,6 @@ public class citireFisier {
                 if (info.length > 0){
                     Data achizitieTemp = new Data(Integer.parseInt(info[3]), Integer.parseInt(info[4]), Integer.parseInt(info[5]));
                     Autor autorTemp = new Autor(info[7], info[8], info[9], info[10]);
-                    //Editie editieTemp = new Editie(info[0], info[1], info[2], achizitieTemp, info[6], autorTemp, info[11]);
                     Editie editieTemp = new Editie(achizitieTemp, info[6], autorTemp, info[11], info[0], Integer.parseInt(info[1]), Integer.parseInt(info[2]));
                     inventar.add(editieTemp);
                 }
@@ -86,7 +85,6 @@ public class citireFisier {
                     Adresa adresaTemp = new Adresa(info[6], info[7], info[7], Integer.parseInt(info[9]));
                     Data dAbonamentTemp = new Data(Integer.parseInt(info[10]), Integer.parseInt(info[11]), Integer.parseInt(info[12]));
                     Abonament abonamentTemp = new Abonament(dAbonamentTemp);
-                    //System.out.println(nastereTemp + "\n" + adresaTemp + "\n" + dAbonamentTemp + "\n" + abonamentTemp + "\n\n\n");
 
                     Cititor persoanaTemp = null;
                     persoanaTemp = new Cititor(info[13], info[14], nastereTemp, info[3], info[4], info[5], adresaTemp, abonamentTemp);
@@ -105,7 +103,6 @@ public class citireFisier {
             System.out.println("Eroare la inchiderea fisierului cititori.csv.");
         }
     }
-
 
 
 
