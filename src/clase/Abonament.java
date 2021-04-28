@@ -1,24 +1,23 @@
 package clase;
 
+import java.util.Objects;
+
 public class Abonament {
     private static Integer id=0;
     private String idCard;
     private Data inceput;
-    private Data sfarsit;
-    private boolean eValabil;
+    private boolean eValabil = Boolean.TRUE;
 
-    public Abonament(String idCard, Data inceput, Data sfarsit, boolean eValabil) {
+    public Abonament(String idCard, Data inceput) {
         this.idCard = idCard;
         this.inceput = inceput;
-        this.sfarsit = sfarsit;
         this.eValabil = eValabil;
     }
 
-    public Abonament( Data inceput, Data sfarsit, boolean eValabil) {
+    public Abonament(Data inceput) {
         id++;
         this.idCard = Integer.toString(id);
         this.inceput = inceput;
-        this.sfarsit = sfarsit;
         this.eValabil = eValabil;
     }
 
@@ -38,14 +37,6 @@ public class Abonament {
         this.inceput = inceput;
     }
 
-    public Data getSfarsit() {
-        return sfarsit;
-    }
-
-    public void setSfarsit(Data sfarsit) {
-        this.sfarsit = sfarsit;
-    }
-
     public boolean iseValabil() {
         return eValabil;
     }
@@ -58,7 +49,19 @@ public class Abonament {
     public String toString() {
         return "Abonamentul legat de cardul cu id-ul " + idCard +
                 " are data de inceput " + inceput +
-                ", si data de sfarsit " + sfarsit +
-                ". Abonamentului este valabil: " + eValabil;
+                " si valabilitate de 2 ani. Abonamentului este valabil: " + eValabil;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+        Abonament abonament = (Abonament) obj;
+        return eValabil == abonament.eValabil && Objects.equals(idCard, abonament.idCard) && Objects.equals(inceput, abonament.inceput);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(idCard, inceput, eValabil);
     }
 }

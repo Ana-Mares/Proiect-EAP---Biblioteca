@@ -1,4 +1,4 @@
-package servicii.validari;
+package validari;
 
 import clase.Data;
 

@@ -1,5 +1,7 @@
 package clase;
 
+import java.util.Objects;
+
 public class Data implements Comparable<Data> {
     protected int zi;
     protected int luna;
@@ -47,5 +49,18 @@ public class Data implements Comparable<Data> {
         if (d.getAn() != this.getAn() ) return d.getAn()-this.getAn();
         else if (d.getLuna() != this.getLuna() ) return d.getLuna()-this.getLuna();
         else return d.getZi()-this.getZi();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+        Data data = (Data) obj;
+        return zi == data.zi && luna == data.luna && an == data.an;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(zi, luna, an);
     }
 }

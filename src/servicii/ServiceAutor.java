@@ -36,7 +36,7 @@ public class ServiceAutor {
 
         Random random= new Random();
         for (int i = 0; i < autori.length; i++) {
-            Autor autor = new Autor (nume[random.nextInt(nume.length)], prenume[random.nextInt(prenume.length)], nastere[random.nextInt(nastere.length)],tari[random.nextInt(tari.length)], deces[random.nextInt(deces.length)], premii[random.nextInt(premii.length)] );
+            Autor autor = new Autor (nume[random.nextInt(nume.length)], prenume[random.nextInt(prenume.length)],tari[random.nextInt(tari.length)], premii[random.nextInt(premii.length)] );
             autori[i] = autor;
         }
 

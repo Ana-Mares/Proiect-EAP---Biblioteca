@@ -1,0 +1,16 @@
+
+[	java:S125"<This block of commented-out lines of code should be removed.(Ş”öùÿÿÿÿ8Ö£ãÓ/
+™
+java:S1319"yThe type of the "imprumuturi" object should be an interface such as "Set" rather than the implementation "LinkedHashSet".(áäªÃùÿÿÿÿ8İÍÓ/
+
+java:S1319"sThe return type of this method should be an interface such as "Set" rather than the implementation "LinkedHashSet".(‘–ñ8¢âĞÓ/
+™
+java:S1319"yThe type of the "imprumuturi" object should be an interface such as "Set" rather than the implementation "LinkedHashSet".(ƒÂ€Èøÿÿÿÿ8²»ÊÓ/
+v
+java:S1488"[Immediately return this expression instead of assigning it to the temporary variable "tmp".(­Ñµ©8„à–Ô/
+v
+java:S1488"[Immediately return this expression instead of assigning it to the temporary variable "tmp".(­Ñµ©8Ö£ãÓ/
+V	java:S125"<This block of commented-out lines of code should be removed.(§‚ ö8ùœÍÓ/
+Z
+java:S1161":Add the "@Override" annotation above this method signature(ı ğÁÿÿÿÿÿ8„à–Ô/
+Y	java:S107"AConstructor has 9 parameters, which is greater than 7 authorized.(ƒÂ€Èøÿÿÿÿ

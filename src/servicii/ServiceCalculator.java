@@ -1,12 +1,11 @@
 package servicii;
 
-import clase.Autor;
 import clase.Calculator;
 import clase.Data;
 import clase.Inventar;
-import servicii.filtre.FiltruCarte;
 import servicii.filtre.FiltruInventar;
 
+import java.util.List;
 import java.util.Random;
 
 public class ServiceCalculator {
@@ -23,15 +22,15 @@ public class ServiceCalculator {
     }
 
     private void initCalculator(){
-        ServiceDate sDate = new ServiceDate();
+        ServiceDate sDate = new ServiceDate(1);
         Data[] achizitie = sDate.getDate();
         Boolean[] disponibil = {Boolean.TRUE, Boolean.FALSE};
 
-        Data[] istoricReparatii = null;
+        List istoricReparatii = null;
         String[] firma = {"Lenovo", "Asus", "HP", "Acer", "Myria"};
         Random random= new Random();
         for (int i = 0; i < calculatoare.length; i++) {
-            Calculator calculator = new Calculator (achizitie[random.nextInt(achizitie.length)], disponibil[0], istoricReparatii, firma[random.nextInt(firma.length)] );
+            Calculator calculator = new Calculator (achizitie[random.nextInt(achizitie.length)], istoricReparatii, firma[random.nextInt(firma.length)] );
             calculatoare[i] = calculator;
         }
     }

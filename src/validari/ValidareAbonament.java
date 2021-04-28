@@ -1,4 +1,4 @@
-package servicii.validari;
+package validari;
 
 public class ValidareAbonament {
     public boolean validareId (String idCard ) {

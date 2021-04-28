@@ -1,0 +1,11 @@
+
+L
+java:S3740
+"/Provide the parametrized type for this generic.(““Ä³8’æì/
+W
+java:S1854
+":Remove this useless assignment to local variable "cpDate".(““Ä³8·¤Àø/
+]	java:S125"<This block of commented-out lines of code should be removed.(×Ãè®úÿÿÿÿ8·¤Àø/
+H
+java:S1481
+"+Remove this unused "cpDate" local variable.(““Ä³8·¤Àø/

@@ -1,12 +1,13 @@
 package servicii;
 
 import clase.*;
-import java.util.Random;
+
+import java.util.*;
 
 public class ServiceCititor {
-    Cititor[] cititori = new Cititor[8];
+    Cititor[] cititori = new Cititor[10];
 
-    public ServiceCititor(Inventar[] obiecte) {
+    public ServiceCititor(List<Inventar> obiecte) {
         this.initCititor(obiecte);
     }
 
@@ -14,7 +15,7 @@ public class ServiceCititor {
         return cititori;
     }
 
-    private void initCititor(Inventar[] obiecte) {
+    private void initCititor(List<Inventar> obiecte) {
         String[] nume = {"Ionescu", "Popescu", "Vasilescu", "Johnson", "McDaniel", "Muller", "Garcia", "Dinu", "Dobre", "Apostol"};
         String[] prenume = {"Marcel", "Daniel", "Gabriel", "John", "Damian", "Paul", "Luis", "Sofia", "Andreea", "Diana", "Maria", "Emma", "Sara", "Lucia"};
         //ServiceDate sDate = new ServiceDate();
@@ -53,9 +54,19 @@ public class ServiceCititor {
             ExtragereInfoCNP extrageInfo = new ExtragereInfoCNP(tempCnp);
             Data nastere = extrageInfo.extragereInfo(tempCnp);
             ServiceImprumut sImprumut = new ServiceImprumut(obiecte);
-            Imprumut[] imprumut = null;
-            imprumut = sImprumut.getImprumuturi();
+            List<Imprumut> imprumut = new ArrayList<>();
+            imprumut.addAll(Arrays.asList(sImprumut.getImprumuturi()));
+            //Imprumut[] imprumut = sImprumut.getImprumuturi();
+            //System.out.println("Imprumutul A     ");
+           /* int j = 0;
 
+            while (imprumut[j].getImprumutare() != null)
+            {
+                System.out.println(j);
+                System.out.println(imprumut[j].toString());
+            System.out.println("\n");
+            j++;}
+*/
             Cititor cititor = new Cititor(tempNume, tempPrenume,nastere, tempCnp, mail, nrTel[i], adresa[i], abonamente[random.nextInt(abonamente.length)], imprumut);
             cititori[i] = cititor;
         }

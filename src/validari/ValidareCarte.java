@@ -1,4 +1,4 @@
-package servicii.validari;
+package validari;
 
 public class ValidareCarte {
     String[] categorii = {"Beletristica", "Pentru copii", "Biografii, memorii", "Istorie", "Economie", "Psihologie", "Filosofie", "Religie", "Stiinte", "Arta", "Dictionare, enciclopedii"};

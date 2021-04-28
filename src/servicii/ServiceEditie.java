@@ -28,7 +28,7 @@ public class ServiceEditie {
 
         for (int i = 0; i < editii.length; i++) {
             rand = random.nextInt(carti.length);
-            Editie editie = new Editie (carti[rand].getAchizitie(), carti[rand].isDisponibil(), carti[rand].getTitlu(), carti[rand].getAutor(), carti[rand].getCategorie(), edituri[random.nextInt(edituri.length)], random.nextInt(62)+1960, random.nextInt(1480)+20);
+            Editie editie = new Editie (carti[rand].getAchizitie(), carti[rand].getTitlu(), carti[rand].getAutor(), carti[rand].getCategorie(), edituri[random.nextInt(edituri.length)], random.nextInt(62)+1960, random.nextInt(1480)+20);
             editii[i] = editie;
         }
     }

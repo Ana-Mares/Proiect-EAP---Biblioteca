@@ -3,12 +3,13 @@ package servicii;
 import clase.*;
 import servicii.filtre.FiltruAngajat;
 
+import java.util.List;
 import java.util.Random;
 
 public class ServiceAngajat {
-    Angajat[] angajati = new Angajat[3];
+    Angajat[] angajati = new Angajat[5];
 
-    public ServiceAngajat(Inventar[] obiecte) {this.initAdresa(obiecte);}
+    public ServiceAngajat(List<Inventar>  obiecte) {this.initAdresa(obiecte);}
 
     public Angajat[] getAngajati() {
         return angajati;
@@ -19,9 +20,9 @@ public class ServiceAngajat {
     public Angajat[] filtreazaEgal(FiltruAngajat filtru, Object valoare) { return filtru.filtruEgal(angajati, valoare); }
 
 
-    private void initAdresa(Inventar[] obiecte) {
+    private void initAdresa(List<Inventar> obiecte) {
 
-        ServiceDate sDate = new ServiceDate();
+        ServiceDate sDate = new ServiceDate(1);
         Data[] angajare = sDate.getDate();
         int[] salarii = {1200, 1500, 3000, 2400, 2750, 5000};
         ServiceCititor sCititor = new ServiceCititor(obiecte);

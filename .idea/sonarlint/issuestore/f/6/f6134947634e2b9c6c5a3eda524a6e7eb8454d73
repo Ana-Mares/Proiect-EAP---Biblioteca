@@ -1,0 +1,17 @@
+
+A
+java:S1128"+Remove this unused import 'clase.Persoana'.(ÅÄ‚¥
+3
+java:S2119%"Save and re-use this "Random".(¼İÅf
+E
+java:S3740"/Provide the parametrized type for this generic.(•‚³ˆ
+V
+java:S1128";Remove this unused import 'servicii.filtre.FiltruPersoana'.(‘Û¶“ùÿÿÿÿ
+X
+java:S1854";Remove this useless assignment to local variable "nastere".(éŠÆ‡8°ºÖø/
+I
+java:S1481",Remove this unused "nastere" local variable.(éŠÆ‡8°ºÖø/
+[
+java:S1854""9Remove this useless assignment to local variable "deces".(¾°³Ÿøÿÿÿÿ8£ÍÖø/
+L
+java:S1481""*Remove this unused "deces" local variable.(¾°³Ÿøÿÿÿÿ8£ÍÖø/

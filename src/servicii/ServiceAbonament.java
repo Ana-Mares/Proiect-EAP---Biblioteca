@@ -21,13 +21,13 @@ public class ServiceAbonament {
     }
 
     private void initAbonamente() {
-        ServiceDate sDate = new ServiceDate();
-        ServiceDate sDate2 = new ServiceDate();
+        ServiceDate sDate = new ServiceDate(1);
+        ServiceDate sDate2 = new ServiceDate(1);
         Data[] inceput = sDate.getDate();
         Data[] sfarsit = sDate2.getDate();
         Random random= new Random();
         for (int i = 0; i < abonamente.length; i++) {
-            Abonament abonament = new Abonament (inceput[random.nextInt(inceput.length)], sfarsit[random.nextInt(sfarsit.length)], Boolean.TRUE );
+            Abonament abonament = new Abonament (inceput[random.nextInt(inceput.length)]);
             abonamente[i] = abonament;
         }
     }

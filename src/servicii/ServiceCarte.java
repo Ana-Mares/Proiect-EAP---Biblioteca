@@ -21,7 +21,7 @@ public class ServiceCarte {
     }
 
     private void initCarte(){
-        ServiceDate sDate = new ServiceDate();
+        ServiceDate sDate = new ServiceDate(1);
         Data[] achizitie = sDate.getDate();
         Boolean[] disponibil = {Boolean.TRUE, Boolean.FALSE};
 
@@ -31,7 +31,7 @@ public class ServiceCarte {
         String[] categorii = {"Beletristica", "Pentru copii", "Biografii, memorii", "Istorie", "Economie", "Psihologie", "Filosofie", "Religie", "Stiinte", "Arta", "Dictionare, enciclopedii"};
         Random random= new Random();
         for (int i = 0; i < carti.length; i++) {
-            Carte carte = new Carte (achizitie[random.nextInt(achizitie.length)], disponibil[0], titluri[i], autori[random.nextInt(autori.length)], categorii[random.nextInt(categorii.length)] );
+            Carte carte = new Carte (achizitie[random.nextInt(achizitie.length)], titluri[i], autori[random.nextInt(autori.length)], categorii[random.nextInt(categorii.length)] );
             carti[i] = carte;
         }
     }

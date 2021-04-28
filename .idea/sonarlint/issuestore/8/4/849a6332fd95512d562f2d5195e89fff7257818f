@@ -1,0 +1,13 @@
+
+X	java:S125."<This block of commented-out lines of code should be removed.(ıŞÓ8ÇôˆÕ/
+V
+java:S1117!":Rename "random" which hides the field declared at line 11.(¼İÅf8Ç—†Ç/
+X	java:S125&"<This block of commented-out lines of code should be removed.(î¢óÒ8ß‰»Ë/
+t	java:S1278"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8Ï±üÄ/
+:
+java:S2119!"Save and re-use this "Random".(¼İÅf8Ç—†Ç/
+]	java:S125="<This block of commented-out lines of code should be removed.(•ÅÒøÿÿÿÿ8±¾ÈË/
+v
+java:S2293/"YReplace the type specification in this constructor call with the diamond operator ("<>").(’Ù¥8Øã—Õ/
+]	java:S1252"<This block of commented-out lines of code should be removed.(¥…¨·úÿÿÿÿ8´­‚Õ/
+V	java:S125"<This block of commented-out lines of code should be removed.(¯îË³úÿÿÿÿ
