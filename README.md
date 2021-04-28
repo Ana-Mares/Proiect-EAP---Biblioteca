@@ -13,10 +13,10 @@
              -> Cititor -> Angajat (presupunem ca fiecare angajat este si cititor, are abonament la biblioteca si poate imprumuta carti pe baza lui) <br><br>
          
 <b>Actiuni/ interogari</b>
-- Multiple posibilitati de filtrare <br> (X)
-- Adaugari automatizate prin clase Service <br> (X)
+- Multiple posibilitati de filtrare (X)
+- Adaugari automatizate prin clase Service (X)
 - Afisari (X)
-- Transformari (in minuscule, majuscule, majuscula la inceput de cuvant)  <br> (X)
+- Transformari (in minuscule, majuscule, majuscula la inceput de cuvant)  (X)
 - Implementare operatiuni (imprumutaCarte, returneazaCarte, achizitieEditie, achizitieCalculator, cautari, creareAbonament, expirareAbonament, innoireAbonament, primestePremiu, angajeaza, schimbaAdresa, modificaSalariu, intrareInReparatii, schimbaNrTelefon, adaugaAbonament etc) ( )
 
 <b>Colectii diferite(1/minim 2) </b>
