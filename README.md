@@ -25,7 +25,7 @@
 ### Etapa 2:
 - fisiere .csv pentru adaugarea cititorilor (si comenzilor lor), a angajatilor, si a inventarului (calculatoare + editii ale cartilor) (X)
 - citirea din fisiere (X)
-- scrierea in fisiere ( )
-- serviciu de audit ( )
+- scrierea in fisiere (X)
+- serviciu de audit (X)
 - validari informatii citite din fisiere ( )
 - tratare de exceptii ( )
