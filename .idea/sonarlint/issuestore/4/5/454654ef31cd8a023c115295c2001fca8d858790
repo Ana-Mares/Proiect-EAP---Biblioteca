@@ -1,7 +1,13 @@
 
-3
-java:S2119"Save and re-use this "Random".(¼İÅf
 S
 java:S1854!"8Remove this useless assignment to local variable "rand".(ÌïÁÁıÿÿÿÿ
 D
 java:S1481!")Remove this unused "rand" local variable.(ÌïÁÁıÿÿÿÿ
+L
+java:S3740"/Provide the parametrized type for this generic.(«—Šó8ä‚­Ğ‘/
+L
+java:S3740"/Provide the parametrized type for this generic.(”Ãñ±8ä‚­Ğ‘/
+3
+java:S2119"Save and re-use this "Random".(¼İÅf
+Q
+java:S3740"/Provide the parametrized type for this generic.(ŒÄ‘Öüÿÿÿÿ8ä‚­Ğ‘/

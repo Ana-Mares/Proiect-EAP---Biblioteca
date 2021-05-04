@@ -9,18 +9,18 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class citireFisier {
-    public static citireFisier instanta = null;
+public class CitireFisier {
+    public static CitireFisier instanta = null;
 
-    private citireFisier () {}
+    private CitireFisier() {}
 
-    public static citireFisier getInstanta() {
+    public static CitireFisier getInstanta() {
         if(instanta == null)
-            instanta = new citireFisier();
+            instanta = new CitireFisier();
         return instanta;
     }
 
-    public void citireCalculator (ArrayList<Inventar> inventar) {
+    public void citireCalculator (ArrayList<Calculator> calculatoare) {
         BufferedReader cititor = null;
         try {
             String linie = "";
@@ -30,7 +30,7 @@ public class citireFisier {
                 if (info.length > 0){
                     Data achizitieTemp = new Data(Integer.parseInt(info[0]), Integer.parseInt(info[1]), Integer.parseInt(info[2]));
                     Calculator calculatorTemp = new Calculator(achizitieTemp, info[3]);
-                    inventar.add(calculatorTemp);
+                    calculatoare.add(calculatorTemp);
                 }
             }
         }
@@ -46,7 +46,7 @@ public class citireFisier {
         }
     }
 
-    public void citireEditie (ArrayList<Inventar> inventar) {
+    public void citireEditie (ArrayList<Editie> editii) {
         BufferedReader cititor = null;
         try {
             String linie = "";
@@ -57,7 +57,7 @@ public class citireFisier {
                     Data achizitieTemp = new Data(Integer.parseInt(info[3]), Integer.parseInt(info[4]), Integer.parseInt(info[5]));
                     Autor autorTemp = new Autor(info[7], info[8], info[9], info[10]);
                     Editie editieTemp = new Editie(achizitieTemp, info[6], autorTemp, info[11], info[0], Integer.parseInt(info[1]), Integer.parseInt(info[2]));
-                    inventar.add(editieTemp);
+                    editii.add(editieTemp);
                 }
             }
         }
@@ -82,7 +82,7 @@ public class citireFisier {
                 String[] info = linie.split(",");
                 if (info.length > 0){
                     Data nastereTemp = new Data(Integer.parseInt(info[0]), Integer.parseInt(info[1]), Integer.parseInt(info[2]));
-                    Adresa adresaTemp = new Adresa(info[6], info[7], info[7], Integer.parseInt(info[9]));
+                    Adresa adresaTemp = new Adresa(info[6], info[7], info[8], Integer.parseInt(info[9]));
                     Data dAbonamentTemp = new Data(Integer.parseInt(info[10]), Integer.parseInt(info[11]), Integer.parseInt(info[12]));
                     Abonament abonamentTemp = new Abonament(dAbonamentTemp);
 
@@ -106,7 +106,7 @@ public class citireFisier {
 
 
 
-    public void citireAngajati (ArrayList<Cititor> cititori) {
+    public void citireAngajati (ArrayList<Angajat> angajati) {
         BufferedReader cititor = null;
         try {
             String linie = "";
@@ -120,9 +120,9 @@ public class citireFisier {
                     Data dAbonamentTemp = new Data(Integer.parseInt(info[14]), Integer.parseInt(info[15]), Integer.parseInt(info[16]));
                     Abonament abonamentTemp = new Abonament(dAbonamentTemp);
 
-                    Cititor persoanaTemp = null;
+                    Angajat persoanaTemp = null;
                         persoanaTemp = new Angajat(info[17], info[18], nastereTemp, info[7], info[8], info[9], adresaTemp, abonamentTemp, angajareTemp, Integer.parseInt(info[3]));
-                        cititori.add(persoanaTemp);
+                        angajati.add(persoanaTemp);
                 }
             }
         }

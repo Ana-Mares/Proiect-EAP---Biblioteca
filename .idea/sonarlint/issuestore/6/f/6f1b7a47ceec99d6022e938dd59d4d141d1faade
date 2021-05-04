@@ -1,9 +1,9 @@
 
 E
 java:S3740"/Provide the parametrized type for this generic.(È®
-3
-java:S2119"Save and re-use this "Random".(¼İÅf
-]
-java:S1854";Remove this useless assignment to local variable "sfarsit".(æ‘Œùÿÿÿÿ8íöí©/
 N
 java:S1481",Remove this unused "sfarsit" local variable.(æ‘Œùÿÿÿÿ8íöí©/
+]
+java:S1854";Remove this useless assignment to local variable "sfarsit".(æ‘Œùÿÿÿÿ8íöí©/
+3
+java:S2119"Save and re-use this "Random".(¼İÅf

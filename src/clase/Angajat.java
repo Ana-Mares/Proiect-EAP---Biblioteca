@@ -38,7 +38,7 @@ public class Angajat extends Cititor {
 
     @Override
     public String toString() {
-        return "Informatii despre angajat" + '\n' + super.toString2() +
+        return "Informatii despre angajat" + '\n' + super.toString() + "\n" +
                 "Data angajare " + angajare +
                 ", salariu " + salariu + " lei.";
     }

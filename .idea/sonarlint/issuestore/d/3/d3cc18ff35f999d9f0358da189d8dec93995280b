@@ -1,4 +1,5 @@
 
-”
-java:S1319"yThe type of the "imprumuturi" object should be an interface such as "Set" rather than the implementation "LinkedHashSet".(”Ÿ¤ï8ˆÜåÓ/
-U	java:S107"BConstructor has 11 parameters, which is greater than 7 authorized.(”Ÿ¤ï
+W	java:S107"BConstructor has 11 parameters, which is greater than 7 authorized.(ıƒØ°
+c	java:S107"BConstructor has 10 parameters, which is greater than 7 authorized.(½Ã°Àüÿÿÿÿ8Ÿò²È‘/
+V
+java:S1128"4Remove this unused import 'java.util.LinkedHashSet'.(à€¼úÿÿÿÿ8±„­Ğ‘/

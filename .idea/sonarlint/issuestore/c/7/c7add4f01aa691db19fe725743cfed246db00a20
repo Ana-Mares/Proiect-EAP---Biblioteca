@@ -1,9 +1,8 @@
 
-7
-java:S1116)"Remove this empty statement.(õéóúÿÿÿÿ
-Q	java:S125"<This block of commented-out lines of code should be removed.(Ã¤Ïî
-]	java:S125>"<This block of commented-out lines of code should be removed.(ò©¾÷ûÿÿÿÿ8»®ïÓ/
-3
-java:S2119"Save and re-use this "Random".(¼İÅf
 5
-java:S1659+"Declare "b" on a separate line.(½ğÊÑ
+java:S1659("Declare "b" on a separate line.(½ğÊÑ
+7
+java:S1116&"Remove this empty statement.(õéóúÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(Ã¤Ïî
+3
+java:S2119"Save and re-use this "Random".(¼İÅf

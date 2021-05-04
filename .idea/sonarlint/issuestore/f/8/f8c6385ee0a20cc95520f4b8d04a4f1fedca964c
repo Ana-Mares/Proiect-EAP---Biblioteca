@@ -1,27 +1,27 @@
 
+A
+java:S1128"+Remove this unused import 'clase.Persoana'.(ÅÄ‚¥
+K
+java:S14813".Remove this unused "saptamani" local variable.(¾¡ìí8Ñø„Ì/
+E
+java:S1172N"(Remove this unused method parameter "a".(İâ½Ë8•§è©/
+U
+java:S1197?"8Move the array designator from the variable to the type.(ßşÆÏ8ßê£Ì/
+E
+java:S3740$"/Provide the parametrized type for this generic.(Ÿûçã
 3
 java:S2119)"Save and re-use this "Random".(¼İÅf
 V
 java:S1128";Remove this unused import 'servicii.filtre.FiltruPersoana'.(‘Û¶“ùÿÿÿÿ
-K
-java:S14813".Remove this unused "saptamani" local variable.(¾¡ìí8Ñø„Ì/
-U
-java:S1197?"8Move the array designator from the variable to the type.(ßşÆÏ8ßê£Ì/
-J
-java:S3740 "/Provide the parametrized type for this generic.(ú¾œúÿÿÿÿ
-A
-java:S1128"+Remove this unused import 'clase.Persoana'.(ÅÄ‚¥
-E
-java:S1172N"(Remove this unused method parameter "a".(İâ½Ë8•§è©/
 Z
 java:S18543"=Remove this useless assignment to local variable "saptamani".(¾¡ìí8Ñø„Ì/
 E
-java:S3740$"/Provide the parametrized type for this generic.(Ÿûçã
-:
-java:S2119O"Save and re-use this "Random".(¼İÅf8®¡Æ©/
+java:S3740"/Provide the parametrized type for this generic.(Õ“ë
 :
 java:S2119W"Save and re-use this "Random".(¼İÅf8ø«Í©/
-E
-java:S3740"/Provide the parametrized type for this generic.(Õ“ë
+:
+java:S2119O"Save and re-use this "Random".(¼İÅf8®¡Æ©/
+J
+java:S3740 "/Provide the parametrized type for this generic.(ú¾œúÿÿÿÿ
 J
 java:S1172V"(Remove this unused method parameter "s".(¼¯·áÿÿÿÿÿ8ø«Í©/

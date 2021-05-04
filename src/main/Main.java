@@ -1,9 +1,8 @@
 package main;
 
 import clase.*;
-import servicii.*;
-import servicii.comparatori.CmpPersoane;
-import servicii.fisiere.citireFisier;
+import servicii.fisiere.CitireFisier;
+import servicii.fisiere.ScriereFisier;
 
 import java.util.*;
 
@@ -11,19 +10,34 @@ public class Main {
     public static void main(String[] args) {
 
         ArrayList<Inventar> inventar = new ArrayList<Inventar>();
+        ArrayList<Calculator> calculatoare = new ArrayList<Calculator>();
+        ArrayList<Editie> editii = new ArrayList<Editie>();
+
         ArrayList<Cititor> cititori = new ArrayList<Cititor>();
-
-        citireFisier.getInstanta().citireEditie( inventar);
-        citireFisier.getInstanta().citireCalculator(inventar);
-
-        citireFisier.getInstanta().citireAngajati( cititori );
-        citireFisier.getInstanta().citireCititori( cititori );
+        ArrayList<Cititor> angajatiSiCititori = new ArrayList<Cititor>();
+        ArrayList<Angajat> angajati = new ArrayList<Angajat>();
 
 
-        citireFisier.getInstanta().citireImprumuturi(cititori, inventar);
+        CitireFisier.getInstanta().citireEditie(editii);
+        CitireFisier.getInstanta().citireCalculator( calculatoare );
+        inventar.addAll(editii);
+        inventar.addAll(calculatoare);
+
+        CitireFisier.getInstanta().citireAngajati( angajati );
+        CitireFisier.getInstanta().citireCititori( cititori );
+        angajatiSiCititori.addAll(angajati);
+        angajatiSiCititori.addAll(cititori);
+
+
+        CitireFisier.getInstanta().citireImprumuturi(cititori, inventar);
         for (int i = 0; i < cititori.size(); i++)
         System.out.println(cititori.get(i).toString() + "\n");
 
+       ScriereFisier.getInstanta().scriereCalculator(calculatoare);
+        ScriereFisier.getInstanta().scriereAngajati(angajati);
+        ScriereFisier.getInstanta().scriereEditie(editii);
+        ScriereFisier.getInstanta().scriereCititor(cititori);
+        ScriereFisier.getInstanta().scriereImprumuturi(cititori);
 
 
 

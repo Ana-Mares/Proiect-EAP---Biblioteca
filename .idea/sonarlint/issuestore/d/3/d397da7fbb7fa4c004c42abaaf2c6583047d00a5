@@ -1,9 +1,9 @@
 
-3
-java:S2119 "Save and re-use this "Random".(¼İÅf
 J
 java:S3740"/Provide the parametrized type for this generic.(Ï‹Îëÿÿÿÿÿ
-`
-java:S1854">Remove this useless assignment to local variable "disponibil".(ø«Çøÿÿÿÿ8­‹óú/
+3
+java:S2119 "Save and re-use this "Random".(¼İÅf
 Q
 java:S1481"/Remove this unused "disponibil" local variable.(ø«Çøÿÿÿÿ8­‹óú/
+`
+java:S1854">Remove this useless assignment to local variable "disponibil".(ø«Çøÿÿÿÿ8­‹óú/
