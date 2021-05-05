@@ -8,7 +8,7 @@ public class ValidareData {
     }
 
     public boolean validareDate (Data d1, Data d2){
-        if ( d1.compareTo(d2) > 0 ) return false;
+        if ( d1.compareTo(d2) <= 0 ) return false;
         return true;
     }
 }

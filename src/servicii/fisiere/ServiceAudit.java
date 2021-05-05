@@ -20,7 +20,7 @@ public class ServiceAudit {
         FileWriter scriereAudit = null;
 
         try {
-            scriereAudit = new FileWriter("src\\\\servicii\\\\fisiere\\\\resurse\\\\audit.csv");
+            scriereAudit = new FileWriter("src\\\\servicii\\\\fisiere\\\\resurse\\\\audit.csv", true);
             SimpleDateFormat format = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
             Timestamp tStamp = new Timestamp(System.currentTimeMillis());
             String timestamp = format.format(tStamp);

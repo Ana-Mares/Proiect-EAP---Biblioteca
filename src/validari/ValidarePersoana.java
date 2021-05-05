@@ -1,10 +1,18 @@
 package validari;
 
 import clase.Data;
+import clase.Persoana;
 
 public class ValidarePersoana {
     String[] premii = {"Nobel pentru Lieratura", "Pulitzer", "Goodreads Choice", "academiei Romane", "Uniunii Scriitorilor"};
 
+
+   /* public boolean validPersoana(Persoana persoana)
+    {
+        return validareNume(persoana.getNume()) && validarePrenume(persoana.getPrenume());
+    }
+
+    public boolean validCititor (Cititor cititor)*/
 
     public boolean validareNume (String nume ) {
         return nume.matches("^[a-zA-Z- ]+$") && nume.length() <= 30;
@@ -27,7 +35,7 @@ public class ValidarePersoana {
         return true;
     }
 
-    public boolean validarecnp(String cnp) {
+    public boolean validareCnp(String cnp) {
         boolean startsWith = cnp.startsWith("1") || cnp.startsWith("2") ||cnp.startsWith("5") || cnp.startsWith("6");
         if (!(startsWith && cnp.length() == 13)) return false;
         for (char x: cnp.toCharArray() )
@@ -46,11 +54,6 @@ public class ValidarePersoana {
             if (numePremiu.equalsIgnoreCase(premiu))
                 return true;
         return false;
-    }
-
-    public boolean validareDeces (Data nastere, Data deces ) {
-        ValidareData validDate = new ValidareData();
-        return validDate.validareDate(nastere, deces);
     }
 
 

@@ -29,9 +29,9 @@ public class Main {
         angajatiSiCititori.addAll(cititori);
 
 
-        CitireFisier.getInstanta().citireImprumuturi(cititori, inventar);
-        for (int i = 0; i < cititori.size(); i++)
-        System.out.println(cititori.get(i).toString() + "\n");
+        CitireFisier.getInstanta().citireImprumuturi(angajatiSiCititori, inventar);
+        for (int i = 0; i < angajatiSiCititori.size(); i++)
+        System.out.println(angajatiSiCititori.get(i).toString() + "\n");
 
        ScriereFisier.getInstanta().scriereCalculator(calculatoare);
         ScriereFisier.getInstanta().scriereAngajati(angajati);

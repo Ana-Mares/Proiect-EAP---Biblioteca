@@ -2,6 +2,7 @@ package servicii.fisiere;
 
 import clase.*;
 import servicii.ServiceDate;
+import validari.Validari;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -19,6 +20,8 @@ public class CitireFisier {
             instanta = new CitireFisier();
         return instanta;
     }
+
+    Validari valid = new Validari();
 
     public void citireCalculator (ArrayList<Calculator> calculatoare) {
         BufferedReader cititor = null;
@@ -57,7 +60,9 @@ public class CitireFisier {
                     Data achizitieTemp = new Data(Integer.parseInt(info[3]), Integer.parseInt(info[4]), Integer.parseInt(info[5]));
                     Autor autorTemp = new Autor(info[7], info[8], info[9], info[10]);
                     Editie editieTemp = new Editie(achizitieTemp, info[6], autorTemp, info[11], info[0], Integer.parseInt(info[1]), Integer.parseInt(info[2]));
-                    editii.add(editieTemp);
+                    if (valid.validEditie(editieTemp))
+                        editii.add(editieTemp);
+                    else System.out.println("NU S-A PUTUT ADAUGA CARTEA/ EDITIA: " + editieTemp + "\n");
                 }
             }
         }
@@ -88,7 +93,9 @@ public class CitireFisier {
 
                     Cititor persoanaTemp = null;
                     persoanaTemp = new Cititor(info[13], info[14], nastereTemp, info[3], info[4], info[5], adresaTemp, abonamentTemp);
-                    cititori.add(persoanaTemp);
+                    if (valid.validCititor(persoanaTemp))
+                        cititori.add(persoanaTemp);
+                    else System.out.println("NU S-A PUTUT ADAUGA PERSOANA: " + persoanaTemp + "\n");
                 }
             }
         }
@@ -122,7 +129,9 @@ public class CitireFisier {
 
                     Angajat persoanaTemp = null;
                         persoanaTemp = new Angajat(info[17], info[18], nastereTemp, info[7], info[8], info[9], adresaTemp, abonamentTemp, angajareTemp, Integer.parseInt(info[3]));
-                        angajati.add(persoanaTemp);
+                        if (valid.validAngajat(persoanaTemp))
+                            angajati.add(persoanaTemp);
+                        else System.out.println("NU S-A PUTUT ADAUGA PERSOANA: " + persoanaTemp + "\n");
                 }
             }
         }
@@ -169,10 +178,22 @@ public class CitireFisier {
                                 List<Inventar> inventarTemp = new ArrayList<Inventar>();
                                 inventarTemp.add(obiect);
                                 Imprumut imprumutTemp = new Imprumut(imprumutareTemp, sDate.adaugaSaptamani(imprumutareTemp, 2), inventarTemp);
-                                List<Imprumut> imprumuturiTemp = new ArrayList<Imprumut>();
-                                imprumuturiTemp = cititori.get(i).getImprumuturi();
-                                imprumuturiTemp.add(imprumutTemp);
-                                cititori.get(i).setImprumuturi(imprumuturiTemp);
+                               // Imprumut imprumutTemp = new Imprumut(imprumutareTemp, new Data(10, 10, 1900), inventarTemp); //nu se adauga niciun imprumut, deoarece data de restituire nu va fi valida
+
+                                if (valid.validImprumut(imprumutTemp)){
+                                    List<Imprumut> imprumuturiTemp = new ArrayList<Imprumut>();
+                                    imprumuturiTemp = cititori.get(i).getImprumuturi();
+                                    imprumuturiTemp.add(imprumutTemp);
+                                    cititori.get(i).setImprumuturi(imprumuturiTemp);
+
+                                }
+
+                                else System.out.println("NU S-A PUTUT ADAUGA IMPRUMUTUL: " + imprumutTemp + "\n");
+                                //List<Imprumut> imprumuturiTemp = new ArrayList<Imprumut>();
+                               // imprumuturiTemp = cititori.get(i).getImprumuturi();
+                               // imprumuturiTemp.add(imprumutTemp);
+
+                               // cititori.get(i).setImprumuturi(imprumuturiTemp);
                             }
                             }
                         }
