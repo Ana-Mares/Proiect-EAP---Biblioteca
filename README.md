@@ -19,8 +19,8 @@
 - Transformari (in minuscule, majuscule, majuscula la inceput de cuvant)  (X)
 - Implementare operatiuni (imprumutaCarte, returneazaCarte, achizitieEditie, achizitieCalculator, cautari, creareAbonament, expirareAbonament, innoireAbonament, primestePremiu, angajeaza, schimbaAdresa, modificaSalariu, intrareInReparatii, schimbaNrTelefon, adaugaAbonament etc) ( )
 
-<b>Colectii diferite(1/minim 2) </b>
-- dintre care cel putin o colectie sortata ( )
+<b>Colectii diferite(X) </b>
+- dintre care cel putin o colectie sortata (X)
 
 ### Etapa 2:
 - fisiere .csv pentru adaugarea cititorilor (si comenzilor lor), a angajatilor, si a inventarului (calculatoare + editii ale cartilor) (X)
