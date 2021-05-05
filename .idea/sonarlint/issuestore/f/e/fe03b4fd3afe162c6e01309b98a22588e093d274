@@ -1,9 +1,17 @@
 
 {
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ºŞ÷ªüÿÿÿÿ8î–¨Í‘/
-d
-java:S3973"HUse indentation to denote the code conditionally executed by this "for".(¼ãÓ8²—°Ï‘/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(·¸“õıÿÿÿÿ8²—°Ï‘/
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ñ¨øÿÿÿÿ8Œûÿ·“/
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(·¸“õıÿÿÿÿ8²—°Ï‘/
 v
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô”¶ô8î–¨Í‘/
-X	java:S125"<This block of commented-out lines of code should be removed.(–³è8ğÉ“Ñ‘/
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ƒİºÓ8Èæ€¸“/
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ã¸8Èæ€¸“/
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô”¶ô8î–¨Í‘/
+X	java:S125-"<This block of commented-out lines of code should be removed.(–³è8ğÉ“Ñ‘/
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ºŞ÷ªüÿÿÿÿ8î–¨Í‘/
+d
+java:S3973!"HUse indentation to denote the code conditionally executed by this "for".(¼ãÓ8²—°Ï‘/
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÇÚÖ8Æ§ò»“/

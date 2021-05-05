@@ -1,15 +1,15 @@
 
 V	java:S107"AConstructor has 9 parameters, which is greater than 7 authorized.(àı§
+V
+java:S1128"4Remove this unused import 'java.util.LinkedHashSet'.(à€¼úÿÿÿÿ8ÓŞ¯Ì‘/
+b	java:S107"AConstructor has 8 parameters, which is greater than 7 authorized.(İ÷áÅÿÿÿÿÿ8ë²±È‘/
+x
+java:S1488r"[Immediately return this expression instead of assigning it to the temporary variable "tmp".(­Ñµ©8Ö£ãÓ/
+\
+java:S1161q":Add the "@Override" annotation above this method signature(ı ğÁÿÿÿÿÿ8„à–Ô/
 {
 java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ç¥¿ÿùÿÿÿÿ8°È±Ì‘/
 x
 java:S1488`"[Immediately return this expression instead of assigning it to the temporary variable "tmp".(­Ñµ©8„à–Ô/
-V
-java:S1128"4Remove this unused import 'java.util.LinkedHashSet'.(à€¼úÿÿÿÿ8ÓŞ¯Ì‘/
-x
-java:S1488r"[Immediately return this expression instead of assigning it to the temporary variable "tmp".(­Ñµ©8Ö£ãÓ/
-b	java:S107"AConstructor has 8 parameters, which is greater than 7 authorized.(İ÷áÅÿÿÿÿÿ8ë²±È‘/
-]	java:S125h"<This block of commented-out lines of code should be removed.(Ş”öùÿÿÿÿ8Ö£ãÓ/
-\
-java:S1161q":Add the "@Override" annotation above this method signature(ı ğÁÿÿÿÿÿ8„à–Ô/
 Y	java:S125Š"<This block of commented-out lines of code should be removed.(§‚ ö8ùœÍÓ/
+]	java:S125h"<This block of commented-out lines of code should be removed.(Ş”öùÿÿÿÿ8Ö£ãÓ/

@@ -89,3 +89,17 @@ W
 'src/servicii/fisiere/ScriereFisier.java,1\4\14a8d15b0a324225f313932226e018ea84315a32
 V
 &src/servicii/fisiere/CitireFisier.java,0\a\0a0d3dc1191c04bcbabb23f07cf6cd3c9583331c
+Z
+*src/servicii/fisiere/resurse/angajatiW.csv,5\3\535d4a0f1381765b675ecdba4cd1e2a693c0ddf7
+V
+&src/servicii/fisiere/resurse/audit.csv,f\e\fe5d4adbb189fa4762d43d956ef4d2cb30b6032a
+^
+.src/servicii/fisiere/resurse/calculatoareW.csv,c\8\c830d2ee84ec36715a4d459067b54f4085393c85
+Z
+*src/servicii/fisiere/resurse/cititoriW.csv,e\a\eaf8fc2c6df4f4749942807b17967c8ab749b935
+X
+(src/servicii/fisiere/resurse/editiiW.csv,f\e\fef72a917051722ea406b46ed8ec49e0010ccb5c
+]
+-src/servicii/fisiere/resurse/imprumuturiW.csv,d\f\dfc1b780ac4362f542292c067f6a70fb51b534e6
+V
+&src/servicii/fisiere/ServiceAudit.java,c\0\c07bb62c3f86acfbe3dbc046a5a1c19ded80bb97

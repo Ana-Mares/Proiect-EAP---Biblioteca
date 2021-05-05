@@ -7,6 +7,7 @@ import servicii.filtre.FiltruInventar;
 
 import java.util.List;
 import java.util.Random;
+import java.util.TreeSet;
 
 public class ServiceCalculator {
     private Calculator[] calculatoare = new Calculator[5];
@@ -26,7 +27,7 @@ public class ServiceCalculator {
         Data[] achizitie = sDate.getDate();
         Boolean[] disponibil = {Boolean.TRUE, Boolean.FALSE};
 
-        List istoricReparatii = null;
+        TreeSet<Data> istoricReparatii = null;
         String[] firma = {"Lenovo", "Asus", "HP", "Acer", "Myria"};
         Random random= new Random();
         for (int i = 0; i < calculatoare.length; i++) {

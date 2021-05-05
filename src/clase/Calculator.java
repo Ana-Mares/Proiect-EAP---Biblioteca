@@ -1,14 +1,14 @@
 package clase;
 
 import java.util.Arrays;
-import java.util.List;
 import java.util.Objects;
+import java.util.TreeSet;
 
 public class Calculator extends Inventar {
-    private List<Data> istoricReparatii;
+    private TreeSet<Data> istoricReparatii;
     private String firma;
 
-    public Calculator(Data achizitie, List<Data> istoricReparatii, String firma) {
+    public Calculator(Data achizitie, TreeSet<Data> istoricReparatii, String firma) {
         super(achizitie);
         this.istoricReparatii = istoricReparatii;
         this.firma = firma;
@@ -19,11 +19,11 @@ public class Calculator extends Inventar {
         this.firma = firma;
     }
 
-    public List<Data> getIstoricReparatii() {
+    public TreeSet<Data> getIstoricReparatii() {
         return istoricReparatii;
     }
 
-    public void setIstoricReparatii(List<Data> istoricReparatii) {
+    public void setIstoricReparatii(TreeSet<Data> istoricReparatii) {
         this.istoricReparatii = istoricReparatii;
     }
 
@@ -38,7 +38,7 @@ public class Calculator extends Inventar {
     @Override
     public String toString() {
         return  "Calculator: " + firma + "; " + super.toString() +
-                "; istoric reparatii: " + Arrays.toString(new List[]{istoricReparatii});
+                "; istoric reparatii: " + Arrays.toString(new TreeSet[]{istoricReparatii});
     }
 
     public String toString2() {
