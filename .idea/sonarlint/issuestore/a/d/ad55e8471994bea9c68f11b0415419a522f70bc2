@@ -1,3 +1,9 @@
 
+ 
+java:S1319"~The type of the "istoricReparatii" object should be an interface such as "SortedSet" rather than the implementation "TreeSet".(´ ìùÿÿÿÿ8ëÇ³ğ“/
+›
+java:S1319"~The type of the "istoricReparatii" object should be an interface such as "SortedSet" rather than the implementation "TreeSet".(Ç°»¯8ëÇ³ğ“/
+
+java:S1319"sThe return type of this method should be an interface such as "SortedSet" rather than the implementation "TreeSet".(·“İÅ8ëÇ³ğ“/
 \
 java:S1161,":Add the "@Override" annotation above this method signature(ı ğÁÿÿÿÿÿ8°’Ã¥/

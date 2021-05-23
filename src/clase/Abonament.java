@@ -8,7 +8,7 @@ public class Abonament {
     private Data inceput;
     private boolean eValabil = Boolean.TRUE;
 
-    public Abonament(String idCard, Data inceput) {
+    public Abonament(String idCard, Data inceput, boolean eValabil) {
         this.idCard = idCard;
         this.inceput = inceput;
         this.eValabil = eValabil;
@@ -48,8 +48,8 @@ public class Abonament {
     @Override
     public String toString() {
         return "Abonamentul legat de cardul cu id-ul " + idCard +
-                " are data de inceput " + inceput +
-                " si valabilitate de 2 ani. Abonamentului este valabil: " + eValabil;
+                " are data de inceput" + inceput +
+                " si valabilitate de 2 ani. Abonamentul este valabil: " + eValabil;
     }
 
     @Override

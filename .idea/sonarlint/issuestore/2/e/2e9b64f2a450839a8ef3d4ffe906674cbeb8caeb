@@ -1,2 +1,5 @@
 
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø”£òúÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø”£òúÿÿÿÿ
+D
+java:S1128"'Remove this unused import 'clase.Data'.(†•üæ8¦âÃð“/
+]	java:S125"<This block of commented-out lines of code should be removed.(ÒÌâ–øÿÿÿÿ8àÔð“/

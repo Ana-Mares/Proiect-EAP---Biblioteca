@@ -1,0 +1,50 @@
+
+•
+java:S1319Q"sThe type of the "cititori" object should be an interface such as "List" rather than the implementation "ArrayList".(»ş¥çúÿÿÿÿ8•©ìğ“/
+U	java:S106g"9Replace this use of System.out or System.err by a logger.(ìµ¿«8ÔÜğğ“/
+V	java:S106†"9Replace this use of System.out or System.err by a logger.(Áóˆ´8¿Î’ñ“/
+[	java:S106È"9Replace this use of System.out or System.err by a logger.(µ³š”şÿÿÿÿ8‹…Õñ“/
+V	java:S106Í"9Replace this use of System.out or System.err by a logger.(‹‡Ñ8‹…Õñ“/
+“
+java:S13194"qThe type of the "editii" object should be an interface such as "List" rather than the implementation "ArrayList".(Œ”êÕşÿÿÿÿ8•©ìğ“/
+‘
+java:S1319–"sThe type of the "inventar" object should be an interface such as "List" rather than the implementation "ArrayList".(İı8ÔÜğğ“/
+D
+java:S1444".Make this "public static instanta" field final(¬ááĞ
+“
+java:S1319"wThe type of the "calculatoare" object should be an interface such as "List" rather than the implementation "ArrayList".(öıå+8•©ìğ“/
+‘
+java:S1319–"sThe type of the "cititori" object should be an interface such as "List" rather than the implementation "ArrayList".(İı8ÔÜğğ“/
+U	java:S106b"9Replace this use of System.out or System.err by a logger.(Áóˆ´8’öğ“/
+p
+java:S3776–"RRefactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.(İı8ÔÜğğ“/
+b
+java:S2259k"EA "NullPointerException" could be thrown; "cititor" is nullable here.(¾ı®±8ÔÜğğ“/
+Z	java:S106M"9Replace this use of System.out or System.err by a logger.(¹Š”ùÿÿÿÿ8•©ìğ“/
+b
+java:S2259-"EA "NullPointerException" could be thrown; "cititor" is nullable here.(¾ı®±8•©ìğ“/
+U	java:S106A"9Replace this use of System.out or System.err by a logger.(æş™µ8–€ ñ“/
+Z	java:S106F"9Replace this use of System.out or System.err by a logger.(ÕĞØşÿÿÿÿ8•©ìğ“/
+V	java:S106‹"9Replace this use of System.out or System.err by a logger.(âÛ†ë8ÔÜğğ“/
+^	java:S125À"<This block of commented-out lines of code should be removed.(Îê‡üÿÿÿÿ8‹…Õñ“/
+Y	java:S125Ä"<This block of commented-out lines of code should be removed.(ôñ·Ù8‹…Õñ“/
+V	java:S106Ô"9Replace this use of System.out or System.err by a logger.(äÜÕ¶8‹…Õñ“/
+c
+java:S2259"EA "NullPointerException" could be thrown; "cititor" is nullable here.(¾ı®±8ÔÜğğ“/
+V	java:S106’"9Replace this use of System.out or System.err by a logger.(†õê–8ÔÜğğ“/
+a
+java:S1854¸"CRemove this useless assignment to local variable "imprumuturiTemp".(ÏˆüÎ8‹…Õñ“/
+w
+java:S2293¸"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÏˆüÎ8‹…Õñ“/
+•
+java:S1319t"sThe type of the "angajati" object should be an interface such as "List" rather than the implementation "ArrayList".(ËúïÃøÿÿÿÿ8ÔÜğğ“/
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(íéæ’øÿÿÿÿ8•©ìğ“/
+w
+java:S2293²"YReplace the type specification in this constructor call with the diamond operator ("<>").(®’Í¨8ÔÜğğ“/
+[	java:S106¿"9Replace this use of System.out or System.err by a logger.(£Åúóùÿÿÿÿ8‹…Õñ“/
+U	java:S1060"9Replace this use of System.out or System.err by a logger.(²·Ä†8•©ìğ“/
+j
+java:S1104"TMake instanta a static final constant or non-public and provide accessors if needed.(¬ááĞ
+Z	java:S106n"9Replace this use of System.out or System.err by a logger.(ÏıŠœüÿÿÿÿ8ÔÜğğ“/
+b
+java:S2259J"EA "NullPointerException" could be thrown; "cititor" is nullable here.(¾ı®±8•©ìğ“/

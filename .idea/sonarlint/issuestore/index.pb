@@ -103,3 +103,7 @@ X
 -src/servicii/fisiere/resurse/imprumuturiW.csv,d\f\dfc1b780ac4362f542292c067f6a70fb51b534e6
 V
 &src/servicii/fisiere/ServiceAudit.java,c\0\c07bb62c3f86acfbe3dbc046a5a1c19ded80bb97
+J
+src/validari/Validari.java,b\c\bc76037ed94d08dfef8c4ab430046d4b5b5721bb
+P
+ src/servicii/DB/ConexiuneDB.java,9\4\9497e59fa1f050aa94f814eff608016628e36da0

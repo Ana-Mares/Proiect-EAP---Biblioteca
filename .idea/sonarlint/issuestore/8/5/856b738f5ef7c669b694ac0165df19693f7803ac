@@ -1,9 +1,9 @@
 
+T
+java:S5993"9Change the visibility of this constructor to "protected".(²ì¶¬ûÿÿÿÿ
+O
+java:S5993"9Change the visibility of this constructor to "protected".(Òµ¬ñ
 [
 java:S3400;"9Remove this method and declare a constant for this value.(Ö§”Óşÿÿÿÿ8ì‡¤¥/
 Š
 java:S4165"hRemove this useless assignment; "disponibil" already holds the assigned value along all execution paths.(¥ËêÈúÿÿÿÿ8ß ™Ï/
-O
-java:S5993"9Change the visibility of this constructor to "protected".(Òµ¬ñ
-T
-java:S5993"9Change the visibility of this constructor to "protected".(²ì¶¬ûÿÿÿÿ

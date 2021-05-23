@@ -1,11 +1,11 @@
 
-Q
-java:S1481"/Remove this unused "disponibil" local variable.(ø«Çøÿÿÿÿ8ƒçõú/
 3
-java:S2119"Save and re-use this "Random".(¼İÅf
+java:S2119 "Save and re-use this "Random".(¼İÅf
 `
-java:S1854">Remove this useless assignment to local variable "disponibil".(ø«Çøÿÿÿÿ8ƒçõú/
+java:S1854">Remove this useless assignment to local variable "disponibil".(ø«Çøÿÿÿÿ8ƒçõú/
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Æ³ğ“/
 Q
-java:S3740"/Provide the parametrized type for this generic.(Ã€¾–úÿÿÿÿ8ã´õú/
+java:S1481"/Remove this unused "disponibil" local variable.(ø«Çøÿÿÿÿ8ƒçõú/
 E
-java:S3740"/Provide the parametrized type for this generic.(‚Ôù
+java:S3740"/Provide the parametrized type for this generic.(‚Ôù

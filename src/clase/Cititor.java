@@ -93,7 +93,7 @@ public class Cititor extends Persoana {
 
     @Override
     public String toString() {
-        String tmp = super.toString() +
+        String tmp = super.toString2() +
                 ", data nasterii: " + nastere +
                 ", CNP: " + cnp  +
                 ", adresa mail: " + mail +

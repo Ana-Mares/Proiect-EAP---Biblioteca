@@ -1,0 +1,46 @@
+
+‘
+java:S1319Ξ"sThe type of the "cititori" object should be an interface such as "List" rather than the implementation "ArrayList".(―³€ζ8Εάμ»“/
+c
+java:S2259"EA "NullPointerException" could be thrown; "scriere" is nullable here.(΅οÒ8Εάμ»“/
+V	java:S106δ"9Replace this use of System.out or System.err by a logger.(βύ•8Εάμ»“/
+j
+java:S20955"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(Ο‡ώωÿÿÿÿ8ές·“/
+k
+java:S2095•"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(‰Έ¤―ÿÿÿÿÿ8Εάμ»“/
+U	java:S106Z"9Replace this use of System.out or System.err by a logger.(ΧηΨ8Εάμ»“/
+V	java:S106Α"9Replace this use of System.out or System.err by a logger.(ςωτ8Εάμ»“/
+]	java:S125"<This block of commented-out lines of code should be removed.(ΛυεΑÿÿÿÿÿ8‰™Ό“/
+T	java:S106R"9Replace this use of System.out or System.err by a logger.(»ΛΌr8Εάμ»“/
+–
+java:S1319’"sThe type of the "angajati" object should be an interface such as "List" rather than the implementation "ArrayList".(ζτΔΔϋÿÿÿÿ8Εάμ»“/
+
+java:S1319_"sThe type of the "cititori" object should be an interface such as "List" rather than the implementation "ArrayList".(»Ψα¶8Εάμ»“/
+V	java:S106†"9Replace this use of System.out or System.err by a logger.(Ϊλε8Εάμ»“/
+c
+java:S2259Ε"EA "NullPointerException" could be thrown; "scriere" is nullable here.(΅οÒ8Εάμ»“/
+V	java:S106μ"9Replace this use of System.out or System.err by a logger.(θήξ8Εάμ»“/
+U	java:S106-"9Replace this use of System.out or System.err by a logger.(Ώς¦8¦ς¦“/
+”
+java:S1319"wThe type of the "calculatoare" object should be an interface such as "List" rather than the implementation "ArrayList".(†«χ8ϋχ‘“/
+K
+java:S1444
+".Make this "public static instanta" field final(όπΜ8¨Ϋ‡“/
+“
+java:S13192"qThe type of the "editii" object should be an interface such as "List" rather than the implementation "ArrayList".(υύ¤ψÿÿÿÿ8©Έ“/
+q
+java:S1104
+"TMake instanta a static final constant or non-public and provide accessors if needed.(όπΜ8¨Ϋ‡“/
+e
+java:S2095"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(ύ“›8‰™Ό“/
+f
+java:S2095Ρ"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(ϋ—¦¦8Εάμ»“/
+[	java:S106Ι"9Replace this use of System.out or System.err by a logger.(ΈµΌήόÿÿÿÿ8Εάμ»“/
+b
+java:S2259)"EA "NullPointerException" could be thrown; "scriere" is nullable here.(΅οÒ8¦ς¦“/
+b
+java:S2259V"EA "NullPointerException" could be thrown; "scriere" is nullable here.(΅οÒ8Εάμ»“/
+e
+java:S2095b"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(™°θλ8Εάμ»“/
+U	java:S106%"9Replace this use of System.out or System.err by a logger.(Ζο8Ρ΅“/
+[	java:S106"9Replace this use of System.out or System.err by a logger.(λόÿÿÿÿ8Εάμ»“/
