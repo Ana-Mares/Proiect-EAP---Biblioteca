@@ -29,3 +29,8 @@
 - serviciu de audit (X)
 - validari informatii citite din fisiere (x)
 - tratare de exceptii ( )
+
+### Etapa 3:
+- Înlocuiți serviciile realizate în etapa a II-a cu servicii care sa asigure persistenta utilizând baza de date folosind JDBC.  (X)
+- Să se realizeze servicii care sa expună operații de tip create, read, update si delete pentru cel puțin 4 dintre clasele definite. (X)
+
