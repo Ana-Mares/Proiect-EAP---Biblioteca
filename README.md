@@ -27,5 +27,5 @@
 - citirea din fisiere (X)
 - scrierea in fisiere (X)
 - serviciu de audit (X)
-- validari informatii citite din fisiere ( )
+- validari informatii citite din fisiere (x)
 - tratare de exceptii ( )
